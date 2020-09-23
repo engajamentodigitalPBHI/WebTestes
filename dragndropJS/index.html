@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>teste drag n drop JS</title>
+    <style type = "text/css">
+    *
+    {
+        margin:0px;
+        padding:0px;
+
+    }
+    .dragzone,.dropzone
+    {
+        height:300px;
+        width: 40%;
+        border: 2px solid blue;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+    <div class = "dragzone">
+        <img src = "img.jpg" id = "dragelement1" height  = "50px" ondragstart = "dragStart(event)">
+
+
+    </div>
+
+    <div class  = "dropzone"ondragover="allowDrop(event)" ondrop = "drop(event)">
+
+    </div>
+    <script type="text/javascript" src = "index.js">
+    </script>  
+</body>
+
+
+</html>
